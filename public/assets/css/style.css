@@ -1,0 +1,282 @@
+h2 {
+    text-align: center;
+    font-size: 28px;
+    padding: 20px 0;
+}
+form {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+}
+.flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form-content {
+    margin: 20px 0;
+}
+.flex > p {
+    width: 15%;
+    font-weight: bold;
+}
+span {
+    color: red;
+}
+.flex-item {
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+.flex-item-content {
+    width: 100%;
+}
+.flex-item-content > p {
+    color: #ddd;
+    margin-top: 20px;
+}
+.flex-item-content > input {
+    width: 75%;
+}
+input {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 0px 20px;
+    width: 100%;
+    height: 48px;
+    font-size: 18px;
+}
+.radio-button {
+    display: flex;
+    align-items: center;
+    width: 26%;
+}
+.radio-button > input {
+    width: 30px;
+    margin-right: 15px;
+}
+.flex-item2 {
+    width: 60%;
+}
+.flex-item2 > p {
+    color: #ddd;
+    margin-top: 20px;
+}
+.flex-item2 > div > p {
+    color: #ddd;
+    margin-top: 20px;
+}
+.postcode > .flex-item2 > div > input {
+    width: 80%;
+    margin-left: 10px;
+}
+.postmark {
+    color: #000;
+}
+.submit-wrap {
+    width: 100%;
+    text-align: center;
+}
+textarea {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    font-size: 18px;
+}
+input[type="submit"] {
+    width: 20%;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.error-msg {
+    text-align: center;
+    color: red;
+}
+/* 確認ページ */
+p.check-content {
+    margin: 30px;
+    color: #000;
+    line-height: 1.5;
+}
+button {
+    display: block;
+    margin: 15px auto;
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+/* サンクスページ */
+.body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thanks-wrap {
+    width: 70%;
+}
+.thanks-wrap > .submit-wrap > input {
+    margin-top: 70px;
+}
+/* 管理ページ */
+.master_page-wrap > form {
+    border: 1px solid #000;
+    height: auto;
+    padding-bottom: 20px;
+}
+.master_page-wrap > form > .fullname-gender > .fullname {
+    justify-content: start;
+    margin-left: 60px;
+}
+.master_page-wrap > form > .fullname-gender > .fullname > .flex-item2 {
+    margin-left: 90px;
+}
+.fullname-gender {
+    display: flex;
+    align-items: center;
+}
+.fullname-gender > .gender > .flex-item > .radio-button {
+    width: 35%;
+}
+.fullname-gender > .gender {
+    justify-content: center;
+}
+form > div.register {
+    justify-content: start;
+    margin: 20px 60px 40px;
+}
+div.master-flex-item {
+    width: 71%;
+}
+.master-span {
+    margin-bottom: 5px;
+    margin-right: 35px;
+}
+.master-span > span {
+    color: black;
+}
+div.email {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 20px 0;
+}
+div.email > p {
+    margin-left: 28px;
+}
+div.email > .flex-item2 {
+    margin-left: 30px;
+}
+div.fullname-gender input {
+    border: 1px solid #000;
+}
+div.master_page-wrap > form > div.register input {
+    border: 1px solid #000;
+}
+div.master_page-wrap > form > div.email input {
+    border: 1px solid #000;
+}
+.page-n {
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-n1 {
+    width: 20%;
+    height: 25px;
+    border: 1px solid red;
+}
+.page-n2 {
+    width: 20%;
+    height: 25px;
+    border: 1px solid red;
+}
+.result-wrap {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+table {
+    width: 100%;
+    text-align: center;
+}
+tr {
+    height: 50px;
+    align-items: center;
+}
+
+table tr:nth-child(1) {
+    border-bottom: 1px solid #000;
+}
+th {
+    padding: 15px;
+}
+td {
+    padding: 15px;
+}
+.delete-btn {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 0px 20px;
+    text-decoration: none;
+    width: 69px;
+}
+.pagenate-wrap {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.pagenate-wrap nav:nth-child(1) {
+    display: none;
+}
+div.paginationWrap ul.pagination {
+    border: none;
+}
+.delete-button {
+    width: 0;
+    height: 0;
+    margin: 0;
+}
+.opinion {
+    position: relative;
+}
+.opinion-out {
+    width: 130px;
+    padding: 10px;
+    font-size: 12px;
+    margin: -30px 0 0;
+    background-color: #666;
+    color: #fff;
+    position: absolute;
+    right: -120px;
+    top: 50%;
+}
+.opinion-out:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-color: rgba(102, 102, 102, 0);
+    border-right-color: #5e5e5e;
+    border-width: 8px;
+    margin-top: -8px;
+}
